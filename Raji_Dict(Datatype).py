@@ -37,3 +37,20 @@ v1=a.get("Guava")
 print(v1)
 None'''
 #keys():=>This Function obtains list of keys from non-empty dict object.
+'''a={'a':20,'b':30,'c':40,'d':50}
+a.keys()
+dict_keys(['a', 'b', 'c', 'd'])
+a.values()
+dict_values([20, 30, 40, 50])
+a={'a':100,'b':90,'c':80}
+a.items()
+dict_items([('a', 100), ('b', 90), ('c', 80)])
+a2={'d':60,'e':50}
+c=a.update(a2)
+print(c)
+None
+print(a)
+{'a': 100, 'b': 90, 'c': 80, 'd': 60, 'e': 50}'''
+
+
+
